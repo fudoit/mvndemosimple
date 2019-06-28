@@ -13,4 +13,4 @@ ENV JAR_TARGET="target/java-http-server-basic-example-1.0-SNAPSHOT.jar"
 EXPOSE 8000
 
 
-CMD ["java", "-jar", "$JAR_TARGET"]
+ENTRYPOINT ["java", "-jar", "$JAR_TARGET"]
