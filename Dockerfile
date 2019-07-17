@@ -1,5 +1,5 @@
 # This file is a template, and might need editing before it works on your project.
-FROM cargo.caicloudprivatetest.com/qatest/java
+FROM cargo.caicloudprivatetest.com/qatest/java:mvn
 MAINTAINER fufu@caicloud.io
 COPY . /usr/src/app
 WORKDIR /usr/src/app
